@@ -1,6 +1,5 @@
 python语言环境激活：
 source myenv/bin/activate  (python 3.8.10)
-source ipopt-env/bin/activate  (python 3.10.18)
 退出环境为deactivate
 
 cd ~/projects/legged_gym
