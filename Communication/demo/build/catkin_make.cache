@@ -1,0 +1,2 @@
+biped_rviz
+-DCATKIN_DEVEL_PREFIX=/home/zihaoye/demo/devel -DCMAKE_INSTALL_PREFIX=/home/zihaoye/demo/install -G Unix Makefiles

@@ -1,0 +1,22 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${pcfiledir}/../..
+libdir=${pcfiledir}/../../lib
+bindir=${pcfiledir}/../../bin
+pkglibdir=${pcfiledir}/../../lib/odri_control_interface
+includedir=${pcfiledir}/../../include
+datarootdir=${pcfiledir}/../../share
+pkgdatarootdir=${pcfiledir}/../../share
+docdir=${pcfiledir}/../../share/doc/odri_control_interface
+doxygendocdir=${pcfiledir}/../../share/doc/odri_control_interface/doxygen-html
+
+Name: odri_control_interface
+Description: Common interface for controlling robots build with the odri master board.
+URL: https://github.com/open-dynamic-robot-initiative/odri_control_interface
+Version: 1.0.1
+Requires: eigen3 >= 3.0.5, eigenpy >= 2.7.10
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

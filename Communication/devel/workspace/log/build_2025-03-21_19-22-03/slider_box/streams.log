@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/zihaoye/devel/workspace/build/slider_box': CMAKE_MODULE_PATH=/home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11 CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/real_time_tools:/home/zihaoye/devel/workspace/install/pybind11:/home/zihaoye/devel/workspace/install/mpi_cmake_modules:/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/zihaoye/devel/workspace/install/real_time_tools/bin:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zihaoye/devel/workspace/src/slider_box -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/slider_box
+[0.047s] -- The C compiler identification is GNU 9.4.0
+[0.083s] -- The CXX compiler identification is GNU 9.4.0
+[0.086s] -- Check for working C compiler: /usr/bin/cc
+[0.142s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.142s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.201s] -- Check for working CXX compiler: /usr/bin/c++
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.257s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.336s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.336s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.336s]   has asked CMake to find a package configuration file provided by
+[0.336s]   "ament_cmake", but CMake did not find one.
+[0.336s] 
+[0.336s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.336s]   any of the following names:
+[0.336s] 
+[0.337s]     ament_cmakeConfig.cmake
+[0.337s]     ament_cmake-config.cmake
+[0.337s] 
+[0.337s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.337s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.337s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.337s]   has been installed.
+[0.337s] 
+[0.337s] 
+[0.337s] -- Configuring incomplete, errors occurred!
+[0.337s] See also "/home/zihaoye/devel/workspace/build/slider_box/CMakeFiles/CMakeOutput.log".
+[0.459s] Invoked command in '/home/zihaoye/devel/workspace/build/slider_box' returned '1': CMAKE_MODULE_PATH=/home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11 CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/real_time_tools:/home/zihaoye/devel/workspace/install/pybind11:/home/zihaoye/devel/workspace/install/mpi_cmake_modules:/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/zihaoye/devel/workspace/install/real_time_tools/bin:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zihaoye/devel/workspace/src/slider_box -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/slider_box

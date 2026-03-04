@@ -1,0 +1,8 @@
+prefix=/home/zihaoye/demo/install
+
+Name: biped_rviz
+Description: Description of biped_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

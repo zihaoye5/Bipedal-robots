@@ -1,0 +1,110 @@
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface.dir/build.make CMakeFiles/odri_control_interface.dir/depend
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface.dir/build.make CMakeFiles/odri_control_interface.dir/build
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 对“CMakeFiles/odri_control_interface.dir/build”无需做任何事。
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 50%] Built target odri_control_interface
+/usr/bin/make -f CMakeFiles/odri_control_interface_pywrap.dir/build.make CMakeFiles/odri_control_interface_pywrap.dir/depend
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_solo12.dir/build.make CMakeFiles/odri_control_interface_demo_solo12.dir/depend
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_testbench.dir/build.make CMakeFiles/odri_control_interface_demo_testbench.dir/depend
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_demo_solo12.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_demo_testbench.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_pywrap.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_solo12.dir/build.make CMakeFiles/odri_control_interface_demo_solo12.dir/build
+/usr/bin/make -f CMakeFiles/odri_control_interface_pywrap.dir/build.make CMakeFiles/odri_control_interface_pywrap.dir/build
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_testbench.dir/build.make CMakeFiles/odri_control_interface_demo_testbench.dir/build
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 对“CMakeFiles/odri_control_interface_demo_solo12.dir/build”无需做任何事。
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 对“CMakeFiles/odri_control_interface_demo_testbench.dir/build”无需做任何事。
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 对“CMakeFiles/odri_control_interface_pywrap.dir/build”无需做任何事。
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 83%] Built target odri_control_interface_demo_solo12
+[ 83%] Built target odri_control_interface_demo_testbench
+[100%] Built target odri_control_interface_pywrap
+make[1]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+-- Install configuration: ""
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/make -f CMakeFiles/Makefile2 uninstall
+make[1]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
+make[3]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=
+make[3]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+make[3]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -DPACKAGE_CREATES_DOT_CATKIN=TRUE -P /home/zihaoye/devel/workspace/build/odri_control_interface/cmake/cmake_uninstall.cmake
+-- catkin path: /home/zihaoye/devel/workspace/install/odri_control_interface/.catkin
+-- Try to remove /home/zihaoye/devel/workspace/install/odri_control_interface/.catkin
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets-noconfig.cmake"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets.cmake"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfigVersion.cmake"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfig.cmake"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/cxx-standard.cmake"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/pkgconfig/odri_control_interface.pc"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_testbench"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_solo12"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages/libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/utils.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/calibration.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/robot.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/common.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/imu.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/device.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/joint_modules.hpp"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/libodri_control_interface.so"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/warning.hh"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/deprecated.hh"
+-- Uninstalling "/home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/config.hh"
+make[3]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+Built target uninstall
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+make[1]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/config.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/deprecated.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/warning.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/libodri_control_interface.so
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/libodri_control_interface.so" to ""
+-- Up-to-date: /home/zihaoye/devel/workspace/install/odri_control_interface/include
+-- Up-to-date: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/joint_modules.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/device.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/imu.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/common.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/robot.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/calibration.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/utils.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages/libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages/libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so" to "$ORIGIN/../../../lib"
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_solo12
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_solo12" to ""
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_testbench
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_testbench" to ""
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/pkgconfig/odri_control_interface.pc
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/cxx-standard.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfig.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfigVersion.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets-noconfig.cmake

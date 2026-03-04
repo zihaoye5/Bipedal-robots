@@ -1,0 +1,3 @@
+source;share/bullet_utils/hook/pythonpath.ps1
+source;share/bullet_utils/hook/pythonpath.dsv
+source;share/bullet_utils/hook/pythonpath.sh

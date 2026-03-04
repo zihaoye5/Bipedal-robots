@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<robot name="biped_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base">
+        <visual>
+            <geometry>
+                <sphere radius="0.001" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue">
+                <color rgba="0 0 1.0 0.5" />
+            </material>
+        </visual>
+  </link>
+  <link name="head">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.00052262 -0.00076382 0.03367157"/>
+      <mass value="0.63446156"/>
+      <inertia ixx="0.00134972" ixy="0.00000210" ixz="0.00027137" iyy="0.00151870" iyz="-0.00001110" izz="0.00207283"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/biped_body.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.01475 0 0.02865"/>
+      <geometry>
+        <box size="0.1575 0.164 0.103"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_hip">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.01708256 -0.00446892 -0.01095830"/>
+      <mass value="0.14004265"/>
+      <inertia ixx="0.00007443" ixy="0.00000148" ixz="0.00002154" iyy="0.00013847" iyz="-0.00001096" izz="0.00009002"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/biped_hip_fe_left_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.02865 -0.0055 -0.0167"/>
+      <geometry>
+        <box size="0.1043 0.041 0.0808"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_hip">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.01708233 0.00447099 -0.01095846"/>
+      <mass value="0.14004412"/>
+      <inertia ixx="0.00007442" ixy="-0.00000148" ixz="0.00002154" iyy="0.00013848" iyz="0.00001095" izz="0.00009001"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/biped_hip_fe_right_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.02865 0.0055 -0.0167"/>
+      <geometry>
+        <box size="0.1043 0.041 0.0808"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_upper_leg">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.00001312 -0.01949046 -0.11145002"/>
+      <mass value="0.15627530"/>
+      <inertia ixx=".00054578" ixy="0" ixz="-0.00000007" iyy=".00054759" iyz=".00004703" izz=".00003216"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/upper_leg_200mm_left_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.018 -0.1033"/>
+      <geometry>
+        <box size="0.0448 0.039 0.2375"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_upper_leg">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.00001312 0.01949046 -0.11145002"/>
+      <mass value="0.15627530"/>
+      <inertia ixx=".00054578" ixy="0" ixz=".00000007" iyy=".00054759" iyz="-0.00004703" izz=".00003216"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/upper_leg_200mm_right_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.018 -0.1033"/>
+      <geometry>
+        <box size="0.0448 0.039 0.2375"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_lower_leg">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.00005422 -0.00837604 -0.13202657"/>
+      <mass value="0.05746831"/>
+      <inertia ixx="0.00035375" ixy="0" ixz="0.00000013" iyy="0.00036756" iyz="0.00000474" izz="0.00001657"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/lower_leg_200mm_left_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.00705 -0.101"/>
+      <geometry>
+        <box size="0.0309 0.0141 0.229"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_lower_leg">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.00005422 0.00837604 -0.13202657"/>
+      <mass value="0.05746831"/>
+      <inertia ixx="0.00035375" ixy="0" ixz="-0.00000013" iyy="0.00036756" iyz="-0.00000474" izz="0.00001657"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://biped_rviz/meshes/lower_leg_200mm_right_side.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.35 0.35 0.35 1"/>
+      </material>]
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.00705 -0.101"/>
+      <geometry>
+        <box size="0.0309 0.0141 0.229"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="fixed_head_to_base" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="base"/>
+    <child link="head"/>
+  </joint>
+    <joint name="left_hip_to_head" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.065 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="head"/>
+    <child link="left_hip"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+  <joint name="right_hip_to_head" type="revolute">
+    <origin rpy="0 0 0" xyz="0 -0.065 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="head"/>
+    <child link="right_hip"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+  <joint name="left_upper_leg_to_left_hip" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.014 -0.038"/>
+    <axis xyz="1 0 0"/>
+    <parent link="left_hip"/>
+    <child link="left_upper_leg"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+  <joint name="right_upper_leg_to_left_hip" type="revolute">
+    <origin rpy="0 0 0" xyz="0 -0.014 -0.038"/>
+    <axis xyz="1 0 0"/>
+    <parent link="right_hip"/>
+    <child link="right_upper_leg"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+  <joint name="left_lower_leg_to_left_upper_leg" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.0376 -0.202"/>
+    <axis xyz="1 0 0"/>
+    <parent link="left_upper_leg"/>
+    <child link="left_lower_leg"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+  <joint name="right_lower_leg_to_right_upper_leg" type="revolute">
+    <origin rpy="0 0 0" xyz="0 -0.0376 -0.202"/>
+    <axis xyz="1 0 0"/>
+    <parent link="right_upper_leg"/>
+    <child link="right_lower_leg"/>
+    <limit effort="112" lower="-0.2618" upper="0.3927" velocity="20.1475"/>
+  </joint>
+</robot>

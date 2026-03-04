@@ -1,0 +1,79 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"add_unit_test"
+		],
+		"files" : 
+		[
+			"cmake/test.cmake",
+			"cmake/base.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "test_protocol::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "build_tests::@6890427a1f51a3e7e1df",
+	"name" : "build_tests",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

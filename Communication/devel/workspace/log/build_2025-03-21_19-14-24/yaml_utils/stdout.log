@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zihaoye/devel/workspace/build/yaml_utils
+[35m[1mScanning dependencies of target test_yaml_utils[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/test_yaml_utils.dir/tests/gtest_main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_yaml_utils.dir/tests/test_yaml_tools.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_yaml_utils[0m
+[100%] Built target test_yaml_utils
+-- Install configuration: ""
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_eigen.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_cpp_fwd.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_tools.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfig.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfigVersion.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsTargets.cmake

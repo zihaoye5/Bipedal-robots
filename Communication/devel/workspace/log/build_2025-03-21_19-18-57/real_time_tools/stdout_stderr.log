@@ -1,0 +1,6 @@
+[  3%] [32m[1mLinking CXX shared library libreal_time_tools.so[0m
+/usr/bin/ld: 找不到 -ledit
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/real_time_tools.dir/build.make:190：libreal_time_tools.so] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:771：CMakeFiles/real_time_tools.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

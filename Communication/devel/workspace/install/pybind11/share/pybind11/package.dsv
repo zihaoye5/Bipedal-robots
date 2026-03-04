@@ -1,0 +1,6 @@
+source;share/pybind11/hook/cmake_module_path.ps1
+source;share/pybind11/hook/cmake_module_path.dsv
+source;share/pybind11/hook/cmake_module_path.sh
+source;share/pybind11/hook/cmake_prefix_path.ps1
+source;share/pybind11/hook/cmake_prefix_path.dsv
+source;share/pybind11/hook/cmake_prefix_path.sh

@@ -1,0 +1,266 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_link_boost_python",
+			"include_directories",
+			"_setup_project_header",
+			"project",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/noetic/share/eigenpy/cmake/boost.cmake",
+			"cmake/header.cmake",
+			"cmake/post-project.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 289,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 58,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "odri_control_interface_pywrap_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/home/zihaoye/devel/workspace/build/odri_control_interface"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/zihaoye/devel/workspace/build/odri_control_interface/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/zihaoye/devel/workspace/src/odri_control_interface/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.8"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/zihaoye/devel/workspace/install/master_board_sdk/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/zihaoye/myenv/lib/python3.8/site-packages/numpy/core/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "odri_control_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "odri_control_interface_pywrap::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib/python3.8/site-packages"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib/python3.8/site-packages"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/zihaoye/devel/workspace/install/odri_control_interface"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/zihaoye/devel/workspace/build/odri_control_interface:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/zihaoye/devel/workspace/install/master_board_sdk/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libodri_control_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/x86_64-linux-gnu/libeigenpy.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_python38.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "odri_control_interface_pywrap",
+	"nameOnDisk" : "libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "srcpy/bindings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "srcpy/bindings.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

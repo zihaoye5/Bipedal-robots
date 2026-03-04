@@ -1,0 +1,80 @@
+python语言环境激活：
+source myenv/bin/activate  (python 3.8.10)
+source ipopt-env/bin/activate  (python 3.10.18)
+退出环境为deactivate
+
+cd ~/projects/legged_gym
+python legged_gym/scripts/play.py --task=a1 --headless
+python legged_gym/scripts/train.py --task=a1 --headless --num_envs=100 --max_iteration=1000
+
+查看学习的量化结果：
+source myenv/bin/activate
+pip install tensorboard
+cd ~/projects/legged_gym/logs/rough_a1/Jul02_12-02-00_ 进入文件储存位置
+tensorboard --logdir=/home/zihaoye/projects/legged_gym/logs/rough_a1/Jul02_12-02-00_  #tensorboard --logdir=储存位置
+复制其中的网址选择scalars/train，这些为rewards图像，rewards越来越大因此合理。
+
+
+克隆：在所需克隆的文件夹下运行：git clone +（http）
+
+把xacro改成urdf：rosrun xacro xacro xxx.xacro > xxx.urdf
+
+vsCode环境配置：在终端中输入：
+1. mkdir -p (文件名)/src
+2. cd (文件名)/
+3. catkin_make
+4. code .
+control shift +B
+选择catkin_make:build 点击后面设置
+覆盖：
+{
+// 有关 tasks.json 格式的文档，请参见
+    // https://go.microsoft.com/fwlink/?LinkId=733558
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "catkin_make:debug", //代表提示的描述性信息
+            "type": "shell",  //可以选择shell或者process,如果是shell代码是在shell里面运行一个命令，如果是process代表作为一个进程来运行
+            "command": "catkin_make",//这个是我们需要运行的命令
+            "args": [],//如果需要在命令后面加一些后缀，可以写在这里，比如-DCATKIN_WHITELIST_PACKAGES=“pac1;pac2”
+            "group": {"kind":"build","isDefault":true},
+            "presentation": {
+                "reveal": "always"//可选always或者silence，代表是否输出信息
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
+右键src点击creat catkin package
+键入功能包名称回车-->输入roscpp rospy std_msgs xacro urdf gazebo_ros gazebo_ros_control gazebo_plugins
+
+
+
+在isaac_gym中训练自己的模型：
+1.复制一份cassie并命名为自己的模型包括envs以及resource里
+2.找到urdf.xacro文件，将其转为urdf：rosrun xacro xacro xxx.xacro > xxx.urdf
+3.修改meshes，修改config文件,在bolt_driver.yaml里面找到kp和kd的参数替换stiffness和damp
+4.在envs中的init文件中添加注册，记得修改config中的class名字
+5.在base中的config找到commands里有对初始速度的限制范围，我们在config中引用修改class commands(LeggedRobotCfg.commands)  ---先大类再小类  （curriculum=True  开启课程模式，逐渐增加训练难度）
+6.在utils中修改terrain的step_height
+
+
+
+
+在mujoco中跑仿真：
+1. 需要训练得到的policy文件，例如legged_gym当中训练好之后，得到的训练文件（需要play之后在export中查找，因为我们需要其中的actor部分）
+2. 将该文件放入mujoco相应位置（policy）中，通过urdf生成xml文件：使用代码./compile ~/projects/legged_gym/resources/robots/bolt/urdf/bolt.urdf ~/projects/legged_gym/resources/robots/bolt/urdf/bolt.xml 注意，代码需要在./simulate等级文件夹位置上运行，～代表了home/zihaoye
+3. 生成的xml文件需要添加其他信息例如actuator等，可以借鉴a1模型，注意imu部分需要在转换后添加site行的代码
+4. 之后我们在a1的.py文件当中修改，注意自由度的数值，terrain作为输入需要与原先训练的设定相同，首先，那个terrain的值，你们要在Issa gym 里边play一下，然后把它print一下，看看它在平地上到底是多少。对于terrain的数值数量，可以通过原先config文件中的   class terrain( LeggedRobotCfg.terrain):
+        measured_points_x = [-0.5, -0.4, -0.3, -0.2, -0.1, 0., 0.1, 0.2, 0.3, 0.4, 0.5] # 1mx1m rectangle (without center line)
+        measured_points_y = [-0.5, -0.4, -0.3, -0.2, -0.1, 0., 0.1, 0.2, 0.3, 0.4, 0.5]来判断（11*11）；
+ 5. 最后，我们在环境中定位到.py所在位置进行python 文件.py进行可视化，如果模型起飞，可以查看一下机器人的初始位置，大概率是机器人的初始执行过低，导致环境初始化的时候，机器人和地面有相交，产生一个很大的力
+ 6. 需要修改scale、p_gain,d_gain,torque_limits、terrain的数据：对于scale，需要在源代码以及后续继承代码中找到准确的值，p_gain,d_gain,torque_limits这些数据可以在legged_robots.py文件中加入print代码行再play得到，对于terrain的值，需要找到legged_robot.py文件中的obervation（这个为所有神经网络的输入）中print。如果要得到平地，必须在config中的terrainproportions，将第一个smooth改为1，其他为0，得到的矩阵为所需矩阵。
+ 
+ 运行mujoco：
+ 1. 打开mujoco文件下的br.test.py文件
+ 2. 在终端中回到主位置进入环境
+ 3. 回到该路径后使用pyhon3 “这个文件的绝对路径” 即可运行
+ 
+ 
+

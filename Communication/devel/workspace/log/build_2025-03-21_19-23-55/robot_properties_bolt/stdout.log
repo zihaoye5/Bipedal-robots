@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/entry_points.txt
+writing requirements to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/requires.txt
+writing top-level names to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/top_level.txt
+reading manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+running build
+running build_py
+running build_scripts
+running install
+running install_lib
+copying /home/zihaoye/devel/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf -> /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+copying /home/zihaoye/devel/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf -> /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+copying /home/zihaoye/devel/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf -> /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+copying /home/zihaoye/devel/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_humanoid.urdf -> /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+running install_data
+running install_egg_info
+removing '/home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robot_properties_bolt/robot_properties_bolt.egg-info to /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info
+running install_scripts
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_meshcat.py to 775
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_humanoid_meshcat.py to 775
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_gepetto.py to 775
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_humanoid_gepetto.py to 775
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_simulate_bolt.py to 775
+changing mode of /home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_simulate_bolt_humanoid.py to 775
+writing list of installed files to '/home/zihaoye/devel/workspace/build/robot_properties_bolt/install.log'

@@ -1,0 +1,46 @@
+[0.045s] Invoking command in '/home/zihaoye/devel/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/yaml_utils -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/yaml_utils
+[0.252s] -- The C compiler identification is GNU 9.4.0
+[0.411s] -- The CXX compiler identification is GNU 9.4.0
+[0.417s] -- Check for working C compiler: /usr/bin/cc
+[0.678s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.681s] -- Detecting C compiler ABI info
+[0.934s] -- Detecting C compiler ABI info - done
+[0.945s] -- Detecting C compile features
+[0.962s] -- Detecting C compile features - done
+[0.969s] -- Check for working CXX compiler: /usr/bin/c++
+[1.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.316s] -- Detecting CXX compiler ABI info
+[1.637s] -- Detecting CXX compiler ABI info - done
+[1.668s] -- Detecting CXX compile features
+[1.668s] -- Detecting CXX compile features - done
+[1.708s] -- Looking for pthread.h
+[2.024s] -- Looking for pthread.h - found
+[2.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.331s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.331s] -- Looking for pthread_create in pthreads
+[2.571s] -- Looking for pthread_create in pthreads - not found
+[2.574s] -- Looking for pthread_create in pthread
+[2.873s] -- Looking for pthread_create in pthread - found
+[2.879s] -- Found Threads: TRUE  
+[2.885s] -- Configuring done
+[2.910s] -- Generating done
+[2.929s] -- Build files have been written to: /home/zihaoye/devel/workspace/build/yaml_utils
+[2.932s] Invoked command in '/home/zihaoye/devel/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/yaml_utils -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/yaml_utils
+[2.935s] Invoking command in '/home/zihaoye/devel/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/yaml_utils -- -j16 -l16
+[3.095s] [35m[1mScanning dependencies of target test_yaml_utils[0m
+[3.174s] [ 33%] [32mBuilding CXX object CMakeFiles/test_yaml_utils.dir/tests/gtest_main.cpp.o[0m
+[3.186s] [ 66%] [32mBuilding CXX object CMakeFiles/test_yaml_utils.dir/tests/test_yaml_tools.cpp.o[0m
+[6.278s] [100%] [32m[1mLinking CXX executable test_yaml_utils[0m
+[6.459s] [100%] Built target test_yaml_utils
+[6.474s] Invoked command in '/home/zihaoye/devel/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/yaml_utils -- -j16 -l16
+[6.475s] Invoking command in '/home/zihaoye/devel/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/yaml_utils
+[6.484s] -- Install configuration: ""
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_eigen.hpp
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_cpp_fwd.hpp
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/include/yaml_utils/yaml_tools.hpp
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfig.cmake
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfigVersion.cmake
+[6.485s] -- Installing: /home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsTargets.cmake
+[6.488s] Invoked command in '/home/zihaoye/devel/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/yaml_utils

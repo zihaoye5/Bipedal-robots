@@ -1,0 +1,109 @@
+[0.011s] Invoking command in '/home/zihaoye/devel/workspace/build/googletest-distribution': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/googletest -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/googletest-distribution
+[0.052s] -- The C compiler identification is GNU 9.4.0
+[0.094s] -- The CXX compiler identification is GNU 9.4.0
+[0.096s] -- Check for working C compiler: /usr/bin/cc
+[0.146s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.146s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.202s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.259s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.323s] -- Looking for pthread.h
+[0.373s] -- Looking for pthread.h - found
+[0.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.425s] -- Looking for pthread_create in pthreads
+[0.467s] -- Looking for pthread_create in pthreads - not found
+[0.467s] -- Looking for pthread_create in pthread
+[0.520s] -- Looking for pthread_create in pthread - found
+[0.521s] -- Found Threads: TRUE  
+[0.526s] -- Configuring done
+[0.533s] -- Generating done
+[0.534s] -- Build files have been written to: /home/zihaoye/devel/workspace/build/googletest-distribution
+[0.639s] Invoked command in '/home/zihaoye/devel/workspace/build/googletest-distribution' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/googletest -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/googletest-distribution
+[0.642s] Invoking command in '/home/zihaoye/devel/workspace/build/googletest-distribution': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/googletest-distribution -- -j16 -l16
+[0.668s] [35m[1mScanning dependencies of target gtest[0m
+[0.680s] [ 12%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.303s] [ 25%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[5.467s] [ 25%] Built target gtest
+[5.497s] [35m[1mScanning dependencies of target gmock[0m
+[5.510s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.551s] [ 37%] [32mBuilding CXX object googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.554s] [ 50%] [32mBuilding CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[7.037s] [ 62%] [32m[1mLinking CXX static library ../lib/libgtest_main.a[0m
+[7.215s] [ 62%] Built target gtest_main
+[8.182s] [ 75%] [32m[1mLinking CXX static library ../lib/libgmock.a[0m
+[8.282s] [ 75%] Built target gmock
+[8.331s] [35m[1mScanning dependencies of target gmock_main[0m
+[8.413s] [ 87%] [32mBuilding CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[10.239s] [100%] [32m[1mLinking CXX static library ../lib/libgmock_main.a[0m
+[10.301s] [100%] Built target gmock_main
+[10.316s] Invoked command in '/home/zihaoye/devel/workspace/build/googletest-distribution' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/googletest-distribution -- -j16 -l16
+[10.319s] Invoking command in '/home/zihaoye/devel/workspace/build/googletest-distribution': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/googletest-distribution
+[10.337s] -- Install configuration: ""
+[10.337s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include
+[10.337s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock
+[10.337s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-cardinalities.h
+[10.337s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock.h
+[10.337s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-actions.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-more-matchers.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-spec-builders.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-nice-strict.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-more-actions.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-function-mocker.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/gmock-matchers.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/custom
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-generated-actions.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/custom/README.md
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-port.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-matchers.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/gmock-pp.h
+[10.338s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/gmock-internal-utils.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gmock/internal/gmock-port.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/libgmock.a
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/libgmock_main.a
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/pkgconfig/gmock.pc
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/pkgconfig/gmock_main.pc
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets.cmake
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets-noconfig.cmake
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfigVersion.cmake
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfig.cmake
+[10.339s] -- Up-to-date: /home/zihaoye/devel/workspace/install/googletest-distribution/include
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-matchers.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest_prod.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-test-part.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-assertion-result.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-spi.h
+[10.339s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest_pred_impl.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-death-test.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-typed-test.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-message.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-port-arch.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-param-util.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/custom
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/custom/README.md
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-printers.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-port.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-type-util.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-string.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-internal.h
+[10.340s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-death-test-internal.h
+[10.341s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-filepath.h
+[10.341s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/internal/gtest-port.h
+[10.341s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-param-test.h
+[10.341s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/include/gtest/gtest-printers.h
+[10.341s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/libgtest.a
+[10.344s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/libgtest_main.a
+[10.344s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/pkgconfig/gtest.pc
+[10.344s] -- Installing: /home/zihaoye/devel/workspace/install/googletest-distribution/lib/pkgconfig/gtest_main.pc
+[10.356s] Invoked command in '/home/zihaoye/devel/workspace/build/googletest-distribution' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/googletest-distribution

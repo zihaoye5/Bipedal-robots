@@ -1,0 +1,12 @@
+source;share/mpi_cmake_modules/hook/cmake_prefix_path.ps1
+source;share/mpi_cmake_modules/hook/cmake_prefix_path.dsv
+source;share/mpi_cmake_modules/hook/cmake_prefix_path.sh
+source;share/mpi_cmake_modules/hook/path.ps1
+source;share/mpi_cmake_modules/hook/path.dsv
+source;share/mpi_cmake_modules/hook/path.sh
+source;share/mpi_cmake_modules/hook/pythonpath.ps1
+source;share/mpi_cmake_modules/hook/pythonpath.dsv
+source;share/mpi_cmake_modules/hook/pythonpath.sh
+source;share/mpi_cmake_modules/hook/pythonscriptspath.ps1
+source;share/mpi_cmake_modules/hook/pythonscriptspath.dsv
+source;share/mpi_cmake_modules/hook/pythonscriptspath.sh

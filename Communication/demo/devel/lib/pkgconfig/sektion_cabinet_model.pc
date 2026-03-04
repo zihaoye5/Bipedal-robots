@@ -1,0 +1,8 @@
+prefix=/home/zihaoye/demo/devel
+
+Name: sektion_cabinet_model
+Description: Description of sektion_cabinet_model
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

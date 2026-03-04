@@ -1,0 +1,72 @@
+[0.406s] Invoking command in '/home/zihaoye/devel/workspace/src/bullet_utils': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/build/bullet_utils/prefix_override:/home/zihaoye/myenv/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /home/zihaoye/myenv/bin/python3.8 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/zihaoye/devel/workspace/build/bullet_utils/build install --record /home/zihaoye/devel/workspace/build/bullet_utils/install.log --single-version-externally-managed
+[0.541s] running egg_info
+[0.541s] creating ../../build/bullet_utils/bullet_utils.egg-info
+[0.541s] writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO
+[0.541s] writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt
+[0.541s] writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt
+[0.541s] writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt
+[0.541s] writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt
+[0.541s] writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[0.542s] reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[0.543s] writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[0.543s] running build
+[0.543s] running build_py
+[0.544s] The documentation is not being built as the mpi_cmake_modules is not found
+[0.544s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build
+[0.544s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib
+[0.544s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet
+[0.545s] copying src/py_pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet
+[0.545s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet
+[0.545s] copying src/pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet
+[0.545s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+[0.545s] copying src/bullet_utils/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+[0.545s] copying src/bullet_utils/wrapper.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+[0.545s] copying src/bullet_utils/env.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+[0.545s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+[0.545s] copying src/bullet_utils/resources/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+[0.545s] copying src/bullet_utils/resources/plane_with_restitution.urdf -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+[0.545s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.545s] copying src/bullet_utils/resources/meshes/cube.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.545s] copying src/bullet_utils/resources/meshes/plane.mtl -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.545s] copying src/bullet_utils/resources/meshes/checker_blue.png -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.545s] copying src/bullet_utils/resources/meshes/plane.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.546s] copying src/bullet_utils/resources/meshes/sphere.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.546s] copying src/bullet_utils/resources/meshes/cylinder.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+[0.546s] running build_scripts
+[0.546s] creating /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8
+[0.546s] copying and adjusting demos/demo_simulate_a_robot.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8
+[0.546s] changing mode of /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8/demo_simulate_a_robot.py from 664 to 775
+[0.546s] running install
+[0.546s] running install_lib
+[0.546s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet
+[0.546s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet
+[0.546s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet
+[0.546s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet
+[0.546s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+[0.547s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/plane_with_restitution.urdf -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+[0.547s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/cube.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/plane.mtl -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/checker_blue.png -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/plane.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/sphere.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/cylinder.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/wrapper.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+[0.547s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/env.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+[0.547s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet/__init__.py to __init__.cpython-38.pyc
+[0.547s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet/__init__.py to __init__.cpython-38.pyc
+[0.548s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/__init__.py to __init__.cpython-38.pyc
+[0.548s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/__init__.py to __init__.cpython-38.pyc
+[0.548s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/wrapper.py to wrapper.cpython-38.pyc
+[0.549s] byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/env.py to env.cpython-38.pyc
+[0.549s] running install_egg_info
+[0.550s] Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info
+[0.550s] running install_scripts
+[0.559s] creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils
+[0.559s] copying /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8/demo_simulate_a_robot.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils
+[0.559s] changing mode of /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775
+[0.560s] writing list of installed files to '/home/zihaoye/devel/workspace/build/bullet_utils/install.log'
+[0.574s] Invoked command in '/home/zihaoye/devel/workspace/src/bullet_utils' returned '0': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/build/bullet_utils/prefix_override:/home/zihaoye/myenv/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /home/zihaoye/myenv/bin/python3.8 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/zihaoye/devel/workspace/build/bullet_utils/build install --record /home/zihaoye/devel/workspace/build/bullet_utils/install.log --single-version-externally-managed

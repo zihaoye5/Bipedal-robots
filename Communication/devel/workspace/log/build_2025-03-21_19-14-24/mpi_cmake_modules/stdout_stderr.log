@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The OS type is non-real-time
+-- Python version: Python 3.8.10
+
+-- Found Python: /home/zihaoye/myenv/bin/python (found version "3.8.10") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zihaoye/devel/workspace/build/mpi_cmake_modules
+-- Install configuration: ""
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/Doxyfile.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/__init__.py.empty.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/dg_python_module.cc.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/py_filter
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/_clang-format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/__init__.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/utils.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/yaml2oneline.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/python_format.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/cmake_format.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/doxygen.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/boost_python.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xacro.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/print_target_properties.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_interpreter.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/pybind11.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_install_dir.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findcereal.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindPythonModules.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/XenomaiConfig.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findrt.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake.backup
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/Support.cmake.backup
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQPP.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQ.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/os_detection.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/dynamic_graph.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xenomai.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/install_scripts.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/generate_cmake_package.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/global_calls.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/run-clang-format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/mpi_cpp_format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/mpi_python_format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/mpi_cmake_format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/mpi_code_format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin/mpi_doc_build
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/Doxyfile.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/__init__.py.empty.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/dg_python_module.cc.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/py_filter
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/_clang-format
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfig.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfigVersion.cmake

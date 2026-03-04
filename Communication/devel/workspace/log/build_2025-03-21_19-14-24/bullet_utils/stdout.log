@@ -1,0 +1,69 @@
+running egg_info
+creating ../../build/bullet_utils/bullet_utils.egg-info
+writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO
+writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt
+writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt
+writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt
+writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt
+writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet
+copying src/py_pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet
+copying src/pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+copying src/bullet_utils/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+copying src/bullet_utils/wrapper.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+copying src/bullet_utils/env.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+copying src/bullet_utils/resources/__init__.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+copying src/bullet_utils/resources/plane_with_restitution.urdf -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/cube.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/plane.mtl -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/checker_blue.png -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/plane.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/sphere.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+copying src/bullet_utils/resources/meshes/cylinder.obj -> /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes
+running build_scripts
+creating /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8
+copying and adjusting demos/demo_simulate_a_robot.py -> /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8
+changing mode of /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8/demo_simulate_a_robot.py from 664 to 775
+running install
+running install_lib
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/py_pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/pinocchio_bullet/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/__init__.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/plane_with_restitution.urdf -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/cube.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/plane.mtl -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/checker_blue.png -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/plane.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/sphere.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/resources/meshes/cylinder.obj -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/meshes
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/wrapper.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/lib/bullet_utils/env.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/py_pinocchio_bullet/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/pinocchio_bullet/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/resources/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/wrapper.py to wrapper.cpython-38.pyc
+byte-compiling /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/env.py to env.cpython-38.pyc
+running install_egg_info
+Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info
+running install_scripts
+creating /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils
+copying /home/zihaoye/devel/workspace/build/bullet_utils/build/scripts-3.8/demo_simulate_a_robot.py -> /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils
+changing mode of /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775
+writing list of installed files to '/home/zihaoye/devel/workspace/build/bullet_utils/install.log'

@@ -1,0 +1,50 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"python_build_get_target",
+			"python_build"
+		],
+		"files" : 
+		[
+			"cmake/python-helpers.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk::@6890427a1f51a3e7e1df",
+	"name" : "compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

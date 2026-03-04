@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/include/master_board_sdk/protocol.h
+stdint.h
+-
+
+/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/tests/test_protocol.cpp
+catch2/catch.hpp
+/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/tests/catch2/catch.hpp
+catch2/catch_all.hpp
+/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/tests/catch2/catch_all.hpp
+master_board_sdk/protocol.h
+/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/tests/master_board_sdk/protocol.h
+limits
+-
+

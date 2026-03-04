@@ -1,0 +1,22 @@
+[0.399s] Invoking command in '/home/zihaoye/devel/workspace/src/bullet_utils': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/build/bullet_utils/prefix_override:/home/zihaoye/myenv/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /home/zihaoye/myenv/bin/python3.8 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/zihaoye/devel/workspace/build/bullet_utils/build install --record /home/zihaoye/devel/workspace/build/bullet_utils/install.log --single-version-externally-managed
+[0.526s] running egg_info
+[0.526s] writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO
+[0.526s] writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt
+[0.526s] writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt
+[0.526s] writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt
+[0.526s] writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt
+[0.527s] reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] The documentation is not being built as the mpi_cmake_modules is not found
+[0.529s] running build_scripts
+[0.529s] running install
+[0.529s] running install_lib
+[0.530s] running install_egg_info
+[0.531s] removing '/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info' (and everything under it)
+[0.531s] Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info
+[0.532s] running install_scripts
+[0.541s] changing mode of /home/zihaoye/devel/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775
+[0.542s] writing list of installed files to '/home/zihaoye/devel/workspace/build/bullet_utils/install.log'
+[0.555s] Invoked command in '/home/zihaoye/devel/workspace/src/bullet_utils' returned '0': CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:${PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/build/bullet_utils/prefix_override:/home/zihaoye/myenv/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /home/zihaoye/myenv/bin/python3.8 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/zihaoye/devel/workspace/build/bullet_utils/build install --record /home/zihaoye/devel/workspace/build/bullet_utils/install.log --single-version-externally-managed

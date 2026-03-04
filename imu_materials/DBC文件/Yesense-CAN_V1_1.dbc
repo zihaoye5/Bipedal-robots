@@ -1,0 +1,182 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Accuracy : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ TID : 0|16@1+ (1,0) [1|60000] "" Vector__XXX
+ SG_ Altitude : 0|32@1+ (3.05E-005,0) [0|100000] "m" Vector__XXX
+ SG_ Longitude : 0|64@1+ (1E-010,0) [0|180] "¡ã" Vector__XXX
+ SG_ Latitude : 0|64@1+ (1E-010,0) [0|180] "¡ã" Vector__XXX
+ SG_ Dq_z : 0|16@1+ (3.05E-005,-1) [-1|1] "" Vector__XXX
+ SG_ Dq_y : 0|16@1+ (3.05E-005,-1) [-1|1] "" Vector__XXX
+ SG_ Dq_x : 0|16@1+ (3.05E-005,-1) [-1|1] "" Vector__XXX
+ SG_ Dq_w : 0|16@1+ (3.05E-005,-1) [-1|1] "" Vector__XXX
+ SG_ Fusion_state : 0|4@1+ (1,0) [0|8] "" Vector__XXX
+ SG_ Gps_state : 0|4@1+ (1,0) [0|8] "" Vector__XXX
+ SG_ Msecond : 0|16@1+ (0.001,0) [0|1] "" Vector__XXX
+ SG_ Second : 0|8@1+ (1,0) [0|60] "" Vector__XXX
+ SG_ Minute : 0|8@1+ (1,0) [0|60] "" Vector__XXX
+ SG_ Hour : 0|8@1+ (1,0) [0|24] "" Vector__XXX
+ SG_ Day : 0|8@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ Month : 0|8@1+ (1,0) [0|12] "" Vector__XXX
+ SG_ Year : 0|8@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ Vu : 0|16@1+ (0.0156,-500) [-500|500] "m/s" Vector__XXX
+ SG_ Vn : 0|16@1+ (0.0156,-500) [-500|500] "m/s" Vector__XXX
+ SG_ Ve : 0|16@1+ (0.0156,-500) [-500|500] "m/s" Vector__XXX
+ SG_ Dv_u : 0|16@1+ (0.0078125,-250) [-250|250] "m/s" Vector__XXX
+ SG_ Dv_n : 0|16@1+ (0.0078125,-250) [-250|250] "m/s" Vector__XXX
+ SG_ Dv_e : 0|16@1+ (0.0078125,-250) [-250|250] "m/s" Vector__XXX
+ SG_ Fa_z : 0|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+ SG_ Fa_y : 0|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+ SG_ Fa_x : 0|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+ SG_ MAG_Z : 0|16@1+ (0.00097656,0) [0|63.9988596] "Guass" Vector__XXX
+ SG_ MAG_Y : 0|16@1+ (0.00097656,0) [0|63.9988596] "Guass" Vector__XXX
+ SG_ MAG_X : 0|16@1+ (0.00097656,-0) [0|63.9988596] "Guass" Vector__XXX
+
+BO_ 2632990041 TimeStamp: 8 Vector__XXX
+ SG_ Output_timestamp : 32|32@1+ (1,0) [0|4294967295] "us" Vector__XXX
+ SG_ Sample_timestamp : 0|32@1+ (1,0) [0|4294967295] "us" Vector__XXX
+
+BO_ 2364551257 Quat: 8 Vector__XXX
+ SG_ Quat_z : 48|16@1+ (3.0519E-005,-1) [-1|1.000062665] "norm" Vector__XXX
+ SG_ Quat_y : 32|16@1+ (3.0519E-005,-1) [-1|1.000062665] "norm" Vector__XXX
+ SG_ Quat_x : 16|16@1+ (3.0519E-005,-1) [-1|1.000062665] "norm" Vector__XXX
+ SG_ Quat_w : 0|16@1+ (3.0519E-005,-1) [-1|1.000062665] "norm" Vector__XXX
+
+BO_ 2632983897 Temperature: 2 Vector__XXX
+ SG_ Temp : 0|16@1+ (0.03125,-273) [-273|1000] "¡æ" Vector__XXX
+
+BO_ 2364549721 GYRO: 8 Vector__XXX
+ SG_ GYRO_Z : 40|20@1+ (0.0078125,-4000) [-4000|4191.9921875] "deg/s" Vector__XXX
+ SG_ GYRO_Y : 20|20@1+ (0.0078125,-4000) [-4000|4191.9921875] "deg/s" Vector__XXX
+ SG_ GYRO_X : 0|20@1+ (0.0078125,-4000) [-4000|4191.9921875] "deg/s" Vector__XXX
+
+BO_ 2364549465 Euler: 6 Vector__XXX
+ SG_ Yaw : 32|16@1+ (0.0078125,-250) [-250|250] "deg" Vector__XXX
+ SG_ Roll : 16|16@1+ (0.0078125,-250) [-250|250] "deg" Vector__XXX
+ SG_ Pitch : 0|16@1+ (0.0078125,-250) [-250|250] "deg" Vector__XXX
+
+BO_ 2364550489 ACC: 6 Vector__XXX
+ SG_ ACC_Z : 32|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+ SG_ ACC_Y : 16|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+ SG_ ACC_X : 0|16@1+ (0.01,-320) [-320|320] "m/s2" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 2147483647;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "DBName" "YesenseCANJ1939";
+BA_ "VFrameFormat" BO_ 2632990041 1;
+BA_ "VFrameFormat" BO_ 2364551257 1;
+BA_ "VFrameFormat" BO_ 2632983897 1;
+BA_ "VFrameFormat" BO_ 2364549721 1;
+BA_ "VFrameFormat" BO_ 2364549465 1;
+BA_ "VFrameFormat" BO_ 2364550489 1;
+BA_ "GenSigStartValue" SG_ 2364551257 Quat_z 32766.4733444739;
+BA_ "GenSigStartValue" SG_ 2364551257 Quat_y 32766.4733444739;
+BA_ "GenSigStartValue" SG_ 2364551257 Quat_x 32766.4733444739;
+BA_ "GenSigStartValue" SG_ 2364551257 Quat_w 65532.9466889479;
+BA_ "GenSigStartValue" SG_ 2364549721 GYRO_Z 512000;
+BA_ "GenSigStartValue" SG_ 2364549721 GYRO_Y 512000;
+BA_ "GenSigStartValue" SG_ 2364549721 GYRO_X 512000;
+

@@ -1,0 +1,22 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${pcfiledir}/../..
+libdir=${pcfiledir}/../../lib
+bindir=${pcfiledir}/../../bin
+pkglibdir=${pcfiledir}/../../lib/master_board_sdk
+includedir=${pcfiledir}/../../include
+datarootdir=${pcfiledir}/../../share
+pkgdatarootdir=${pcfiledir}/../../share
+docdir=${pcfiledir}/../../share/doc/master_board_sdk
+doxygendocdir=${pcfiledir}/../../share/doc/master_board_sdk/doxygen-html
+
+Name: master_board_sdk
+Description: This project contains the sdk for the communication between a computer and the master-board
+URL: https://github.com/open-dynamic-robot-initiative/master-board
+Version: 1.0.7
+Requires: 
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

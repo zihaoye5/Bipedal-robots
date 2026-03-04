@@ -1,0 +1,146 @@
+-- JRL cmakemodules found in 'cmake/' git submodule
+-- Configuring "odri_control_interface" (https://github.com/open-dynamic-robot-initiative/odri_control_interface)
+-- Package version (ROS package.xml): 1.0.1
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Failed to find Doxygen, documentation will not be generated.
+-- Default C++ standard: 201402
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 14
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- eigenpy FOUND. eigenpy at /opt/ros/noetic/lib/x86_64-linux-gnu/libeigenpy.so
+-- For CMake < 3.18, Development.Module is not available. Falling back to Development
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/home/zihaoye/myenv/lib/python3.8/site-packages/numpy/core/include
+--   NUMPY_VERSION=1.24.4
+-- Found Python3: /home/zihaoye/myenv/bin/python (found version "3.8.10") found components: Interpreter NumPy Development 
+-- PythonLibraryDirs: /usr/lib/x86_64-linux-gnu
+-- PythonLibVersionString: 3.8.10
+-- Python site lib: lib/python3.8/site-packages
+-- Python include dirs: /usr/include/python3.8
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/home/zihaoye/myenv/lib/python3.8/site-packages/numpy/core/include
+--   NUMPY_VERSION=1.24.4
+-- NumPy include dir: /home/zihaoye/myenv/lib/python3.8/site-packages/numpy/core/include
+-- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+-- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zihaoye/devel/workspace/build/odri_control_interface
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface.dir/build.make CMakeFiles/odri_control_interface.dir/depend
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target odri_control_interface[0m
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface.dir/build.make CMakeFiles/odri_control_interface.dir/build
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[  8%] [32mBuilding CXX object CMakeFiles/odri_control_interface.dir/src/joint_modules.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/odri_control_interface.dir/src/imu.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/odri_control_interface.dir/src/calibration.cpp.o[0m
+/usr/bin/c++  -Dodri_control_interface_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface.dir/src/joint_modules.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/src/joint_modules.cpp
+/usr/bin/c++  -Dodri_control_interface_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface.dir/src/imu.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/src/imu.cpp
+/usr/bin/c++  -Dodri_control_interface_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface.dir/src/calibration.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/src/calibration.cpp
+[ 33%] [32mBuilding CXX object CMakeFiles/odri_control_interface.dir/src/robot.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/odri_control_interface.dir/src/utils.cpp.o[0m
+/usr/bin/c++  -Dodri_control_interface_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface.dir/src/robot.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/src/robot.cpp
+/usr/bin/c++  -Dodri_control_interface_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface.dir/src/utils.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/src/utils.cpp
+[ 50%] [32m[1mLinking CXX shared library libodri_control_interface.so[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/odri_control_interface.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -shared -Wl,-soname,libodri_control_interface.so -o libodri_control_interface.so CMakeFiles/odri_control_interface.dir/src/joint_modules.cpp.o CMakeFiles/odri_control_interface.dir/src/imu.cpp.o CMakeFiles/odri_control_interface.dir/src/robot.cpp.o CMakeFiles/odri_control_interface.dir/src/calibration.cpp.o CMakeFiles/odri_control_interface.dir/src/utils.cpp.o  -Wl,-rpath,/home/zihaoye/devel/workspace/install/master_board_sdk/lib: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2 /home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so -lpthread 
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 50%] Built target odri_control_interface
+/usr/bin/make -f CMakeFiles/odri_control_interface_pywrap.dir/build.make CMakeFiles/odri_control_interface_pywrap.dir/depend
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_solo12.dir/build.make CMakeFiles/odri_control_interface_demo_solo12.dir/depend
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_testbench.dir/build.make CMakeFiles/odri_control_interface_demo_testbench.dir/depend
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_pywrap.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_demo_solo12.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/odri_control_interface_demo_testbench.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target odri_control_interface_pywrap[0m
+[35m[1mScanning dependencies of target odri_control_interface_demo_testbench[0m
+[35m[1mScanning dependencies of target odri_control_interface_demo_solo12[0m
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_solo12.dir/build.make CMakeFiles/odri_control_interface_demo_solo12.dir/build
+/usr/bin/make -f CMakeFiles/odri_control_interface_demo_testbench.dir/build.make CMakeFiles/odri_control_interface_demo_testbench.dir/build
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 66%] [32mBuilding CXX object CMakeFiles/odri_control_interface_demo_testbench.dir/demos/demo_testbench.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/odri_control_interface_demo_solo12.dir/demos/demo_solo12.cpp.o[0m
+/usr/bin/c++  -DCONFIG_SOLO12_YAML=\"/home/zihaoye/devel/workspace/src/odri_control_interface/demos/config_solo12.yaml\" -DCONFIG_TESTBENCH_YAML=\"/home/zihaoye/devel/workspace/src/odri_control_interface/demos/config_testbench.yaml\" -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion    -std=gnu++14 -o CMakeFiles/odri_control_interface_demo_solo12.dir/demos/demo_solo12.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/demos/demo_solo12.cpp
+/usr/bin/c++  -DCONFIG_SOLO12_YAML=\"/home/zihaoye/devel/workspace/src/odri_control_interface/demos/config_solo12.yaml\" -DCONFIG_TESTBENCH_YAML=\"/home/zihaoye/devel/workspace/src/odri_control_interface/demos/config_testbench.yaml\" -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion    -std=gnu++14 -o CMakeFiles/odri_control_interface_demo_testbench.dir/demos/demo_testbench.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/demos/demo_testbench.cpp
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/odri_control_interface_pywrap.dir/build.make CMakeFiles/odri_control_interface_pywrap.dir/build
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 75%] [32mBuilding CXX object CMakeFiles/odri_control_interface_pywrap.dir/srcpy/bindings.cpp.o[0m
+/usr/bin/c++  -Dodri_control_interface_pywrap_EXPORTS -I/home/zihaoye/devel/workspace/build/odri_control_interface -I/home/zihaoye/devel/workspace/build/odri_control_interface/include -I/home/zihaoye/devel/workspace/src/odri_control_interface/include -isystem /usr/include/python3.8 -isystem /home/zihaoye/devel/workspace/install/master_board_sdk/include -isystem /usr/include/eigen3 -isystem /opt/ros/noetic/include -isystem /home/zihaoye/myenv/lib/python3.8/site-packages/numpy/core/include  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -fPIC   -std=gnu++14 -o CMakeFiles/odri_control_interface_pywrap.dir/srcpy/bindings.cpp.o -c /home/zihaoye/devel/workspace/src/odri_control_interface/srcpy/bindings.cpp
+[ 91%] [32m[1mLinking CXX executable odri_control_interface_demo_testbench[0m
+[ 91%] [32m[1mLinking CXX executable odri_control_interface_demo_solo12[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/odri_control_interface_demo_solo12.dir/link.txt --verbose=1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/odri_control_interface_demo_testbench.dir/link.txt --verbose=1
+/usr/bin/c++  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion    CMakeFiles/odri_control_interface_demo_testbench.dir/demos/demo_testbench.cpp.o  -o odri_control_interface_demo_testbench  -Wl,-rpath,/home/zihaoye/devel/workspace/build/odri_control_interface:/home/zihaoye/devel/workspace/install/master_board_sdk/lib: libodri_control_interface.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2 /home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so -lpthread 
+/usr/bin/c++  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion    CMakeFiles/odri_control_interface_demo_solo12.dir/demos/demo_solo12.cpp.o  -o odri_control_interface_demo_solo12  -Wl,-rpath,/home/zihaoye/devel/workspace/build/odri_control_interface:/home/zihaoye/devel/workspace/install/master_board_sdk/lib: libodri_control_interface.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2 /home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so -lpthread 
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[ 91%] Built target odri_control_interface_demo_solo12
+[ 91%] Built target odri_control_interface_demo_testbench
+[100%] [32m[1mLinking CXX shared library libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/odri_control_interface_pywrap.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -shared -Wl,-soname,libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so -o libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so CMakeFiles/odri_control_interface_pywrap.dir/srcpy/bindings.cpp.o  -Wl,-rpath,/home/zihaoye/devel/workspace/build/odri_control_interface:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/zihaoye/devel/workspace/install/master_board_sdk/lib: libodri_control_interface.so /opt/ros/noetic/lib/x86_64-linux-gnu/libeigenpy.so /usr/lib/x86_64-linux-gnu/libboost_python38.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2 /home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so -lpthread 
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+[100%] Built target odri_control_interface_pywrap
+make[1]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+-- Install configuration: ""
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/make -f CMakeFiles/Makefile2 uninstall
+make[1]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -S/home/zihaoye/devel/workspace/src/odri_control_interface -B/home/zihaoye/devel/workspace/build/odri_control_interface --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
+make[2]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
+make[3]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+cd /home/zihaoye/devel/workspace/build/odri_control_interface && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/src/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=
+Scanning dependencies of target uninstall
+make[3]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+make[3]: 进入目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -DPACKAGE_CREATES_DOT_CATKIN=TRUE -P /home/zihaoye/devel/workspace/build/odri_control_interface/cmake/cmake_uninstall.cmake
+make[3]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+Built target uninstall
+make[2]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+/usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles 0
+make[1]: 离开目录“/home/zihaoye/devel/workspace/build/odri_control_interface”
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/config.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/deprecated.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri/control/interface/warning.hh
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/libodri_control_interface.so
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/libodri_control_interface.so" to ""
+-- Up-to-date: /home/zihaoye/devel/workspace/install/odri_control_interface/include
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/joint_modules.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/device.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/imu.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/common.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/robot.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/calibration.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/include/odri_control_interface/utils.hpp
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages/libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages/libodri_control_interface_pywrap.cpython-38-x86_64-linux-gnu.so" to "$ORIGIN/../../../lib"
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_solo12
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_solo12" to ""
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_testbench
+-- Set runtime path of "/home/zihaoye/devel/workspace/install/odri_control_interface/bin/odri_control_interface_demo_testbench" to ""
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/pkgconfig/odri_control_interface.pc
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/cxx-standard.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfig.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceConfigVersion.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets.cmake
+-- Installing: /home/zihaoye/devel/workspace/install/odri_control_interface/lib/cmake/odri_control_interface/odri_control_interfaceTargets-noconfig.cmake

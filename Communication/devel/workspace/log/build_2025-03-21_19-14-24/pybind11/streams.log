@@ -1,0 +1,125 @@
+[0.012s] Invoking command in '/home/zihaoye/devel/workspace/build/pybind11': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/pybind11 -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/pybind11
+[0.055s] -- The CXX compiler identification is GNU 9.4.0
+[0.060s] -- Check for working CXX compiler: /usr/bin/c++
+[0.116s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.117s] -- Detecting CXX compiler ABI info
+[0.175s] -- Detecting CXX compiler ABI info - done
+[0.183s] -- Detecting CXX compile features
+[0.183s] -- Detecting CXX compile features - done
+[0.185s] -- pybind11 v2.10.0 
+[0.185s] -- CMake 3.16.3
+[0.200s] -- Found PythonInterp: /home/zihaoye/myenv/bin/python (found suitable version "3.8.10", minimum required is "3.6") 
+[0.221s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.221s] -- PYTHON 3.8.10
+[0.222s] -- Performing Test HAS_FLTO
+[0.306s] -- Performing Test HAS_FLTO - Success
+[0.306s] -- pybind11::lto enabled
+[0.306s] -- pybind11::thin_lto enabled
+[0.308s] -- Setting tests build type to MinSizeRel as none was specified
+[0.310s] -- Building tests with Eigen v3.3.7
+[0.315s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.56")  
+[1.336s] -- Found pytest 8.3.5
+[1.337s] -- Catch not detected. Interpreter tests will be skipped. Install Catch headers manually or use `cmake -DDOWNLOAD_CATCH=ON` to fetch them automatically.
+[1.342s] -- Configuring done
+[1.372s] -- Generating done
+[1.380s] -- Build files have been written to: /home/zihaoye/devel/workspace/build/pybind11
+[1.383s] Invoked command in '/home/zihaoye/devel/workspace/build/pybind11' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/zihaoye/devel/workspace/src/pybind11 -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/pybind11
+[1.386s] Invoking command in '/home/zihaoye/devel/workspace/build/pybind11': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/pybind11 -- -j16 -l16
+[1.440s] [35m[1mScanning dependencies of target pybind11_cross_module_tests[0m
+[1.440s] [35m[1mScanning dependencies of target cross_module_interleaved_error_already_set[0m
+[1.440s] [35m[1mScanning dependencies of target cross_module_gil_utils[0m
+[1.441s] [35m[1mScanning dependencies of target pybind11_tests[0m
+[1.453s] [  2%] [32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o[0m
+[1.462s] [  4%] [32mBuilding CXX object tests/CMakeFiles/cross_module_interleaved_error_already_set.dir/cross_module_interleaved_error_already_set.cpp.o[0m
+[1.462s] [  6%] [32mBuilding CXX object tests/CMakeFiles/cross_module_gil_utils.dir/cross_module_gil_utils.cpp.o[0m
+[1.556s] [  8%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/pybind11_tests.cpp.o[0m
+[1.557s] [ 12%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_callbacks.cpp.o[0m
+[1.557s] [ 12%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_chrono.cpp.o[0m
+[1.557s] [ 14%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_async.cpp.o[0m
+[1.558s] [ 16%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_buffers.cpp.o[0m
+[1.558s] [ 18%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_builtin_casters.cpp.o[0m
+[1.559s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_const_name.cpp.o[0m
+[1.559s] [ 22%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o[0m
+[1.561s] [ 25%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_copy_move.cpp.o[0m
+[1.565s] [ 27%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_call_policies.cpp.o[0m
+[1.567s] [ 29%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_constants_and_functions.cpp.o[0m
+[1.569s] [ 31%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_custom_type_casters.cpp.o[0m
+[1.672s] [ 33%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_custom_type_setup.cpp.o[0m
+[3.877s] [ 35%] [32m[1mLinking CXX shared module cross_module_gil_utils.cpython-38-x86_64-linux-gnu.so[0m
+[4.156s] [ 37%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_docstring_options.cpp.o[0m
+[4.437s] [ 39%] [32m[1mLinking CXX shared module cross_module_interleaved_error_already_set.cpython-38-x86_64-linux-gnu.so[0m
+[5.316s] [ 41%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_eigen.cpp.o[0m
+[5.399s] [ 43%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_enum.cpp.o[0m
+[5.508s] [ 43%] Built target cross_module_gil_utils
+[5.533s] [ 45%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_eval.cpp.o[0m
+[5.924s] [ 47%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_exceptions.cpp.o[0m
+[6.022s] [ 47%] Built target cross_module_interleaved_error_already_set
+[6.064s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o[0m
+[6.420s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_iostream.cpp.o[0m
+[6.420s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_gil_scoped.cpp.o[0m
+[6.455s] [ 56%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_kwargs_and_defaults.cpp.o[0m
+[6.578s] [ 58%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o[0m
+[6.733s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o[0m
+[7.049s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_modules.cpp.o[0m
+[7.308s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o[0m
+[7.548s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o[0m
+[7.884s] [ 68%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_dtypes.cpp.o[0m
+[9.252s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_vectorize.cpp.o[0m
+[10.093s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_opaque_types.cpp.o[0m
+[10.147s] [ 75%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_operator_overloading.cpp.o[0m
+[10.482s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_pickling.cpp.o[0m
+[10.572s] [ 79%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_pytypes.cpp.o[0m
+[10.833s] [ 81%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_sequences_and_iterators.cpp.o[0m
+[11.042s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_smart_ptr.cpp.o[0m
+[11.278s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl.cpp.o[0m
+[13.611s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl_binders.cpp.o[0m
+[13.669s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_tagbased_polymorphic.cpp.o[0m
+[14.434s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_thread.cpp.o[0m
+[14.808s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_union.cpp.o[0m
+[14.864s] [ 95%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_virtual_functions.cpp.o[0m
+[16.530s] [ 97%] [32m[1mLinking CXX shared module pybind11_cross_module_tests.cpython-38-x86_64-linux-gnu.so[0m
+[20.581s] [ 97%] Built target pybind11_cross_module_tests
+[27.316s] [100%] [32m[1mLinking CXX shared module pybind11_tests.cpython-38-x86_64-linux-gnu.so[0m
+[56.106s] ------ pybind11_tests.cpython-38-x86_64-linux-gnu.so file size: 2843752
+[56.115s] [100%] Built target pybind11_tests
+[56.125s] Invoked command in '/home/zihaoye/devel/workspace/build/pybind11' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/pybind11 -- -j16 -l16
+[56.128s] Invoking command in '/home/zihaoye/devel/workspace/build/pybind11': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/pybind11
+[56.134s] -- Install configuration: "MinSizeRel"
+[56.134s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11
+[56.134s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/stl.h
+[56.134s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/embed.h
+[56.134s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail
+[56.134s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/class.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/internals.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/init.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/common.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/type_caster_base.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/descr.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/detail/typeid.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/pytypes.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/eval.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/stl_bind.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/numpy.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/functional.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/gil.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/common.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/options.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/pybind11.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/stl
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/stl/filesystem.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/attr.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/iostream.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/cast.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/operators.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/buffer_info.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/eigen.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/complex.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/include/pybind11/chrono.h
+[56.135s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11Config.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11Common.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11Tools.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11NewTools.cmake
+[56.136s] -- Installing: /home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11/pybind11Targets.cmake
+[56.137s] Invoked command in '/home/zihaoye/devel/workspace/build/pybind11' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/pybind11

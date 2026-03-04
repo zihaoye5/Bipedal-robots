@@ -1,0 +1,244 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libmaster_board_sdk_pywrap.cpython-38-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_link_boost_python",
+			"add_definitions",
+			"include_directories",
+			"_setup_project_header",
+			"project",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/boost.cmake",
+			"cmake/header.cmake",
+			"cmake/post-project.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 289,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 58,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion  -O3 -DNDEBUG -fPIC  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "FOUND_CATCH2_MAJOR_VERSION=3"
+				},
+				{
+					"define" : "master_board_sdk_pywrap_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/zihaoye/devel/workspace/build/master_board_sdk"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/zihaoye/devel/workspace/build/master_board_sdk/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.8"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "master_board_sdk::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "master_board_sdk_pywrap::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib/python3.8/site-packages"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib/python3.8/site-packages"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/zihaoye/devel/workspace/install/master_board_sdk"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/zihaoye/devel/workspace/build/master_board_sdk:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libmaster_board_sdk.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_python38.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "master_board_sdk_pywrap",
+	"nameOnDisk" : "libmaster_board_sdk_pywrap.cpython-38-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "srcpy/my_bindings_headr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "srcpy/my_bindings_headr.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

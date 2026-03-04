@@ -1,0 +1,160 @@
+[0.034s] Invoking command in '/home/zihaoye/devel/workspace/build/master_board_sdk': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/master_board_sdk -- -j16 -l16
+[0.040s] /usr/bin/cmake -S/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk -B/home/zihaoye/devel/workspace/build/master_board_sdk --check-build-system CMakeFiles/Makefile.cmake 0
+[0.046s] /usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/progress.marks
+[0.051s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.053s] make[1]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.053s] /usr/bin/make -f CMakeFiles/compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk.dir/build.make CMakeFiles/compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk.dir/depend
+[0.053s] /usr/bin/make -f CMakeFiles/master_board_sdk.dir/build.make CMakeFiles/master_board_sdk.dir/depend
+[0.053s] /usr/bin/make -f CMakeFiles/test_protocol.dir/build.make CMakeFiles/test_protocol.dir/depend
+[0.057s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.057s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk.dir/DependInfo.cmake --color=
+[0.059s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.059s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.059s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/test_protocol.dir/DependInfo.cmake --color=
+[0.059s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/master_board_sdk.dir/DependInfo.cmake --color=
+[0.062s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.062s] /usr/bin/make -f CMakeFiles/compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk.dir/build.make CMakeFiles/compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk.dir/build
+[0.063s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.063s] /usr/bin/cmake -E make_directory /home/zihaoye/devel/workspace/build/master_board_sdk/example
+[0.069s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.069s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.070s] /usr/bin/make -f CMakeFiles/master_board_sdk.dir/build.make CMakeFiles/master_board_sdk.dir/build
+[0.070s] /usr/bin/make -f CMakeFiles/test_protocol.dir/build.make CMakeFiles/test_protocol.dir/build
+[0.079s] /home/zihaoye/myenv/bin/python -c "import py_compile; py_compile.compile(\"/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example.py\",\"/home/zihaoye/devel/workspace/build/master_board_sdk/example/example.pyc\")"
+[0.079s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.079s] make[2]: 对“CMakeFiles/master_board_sdk.dir/build”无需做任何事。
+[0.080s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.080s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.080s] make[2]: 对“CMakeFiles/test_protocol.dir/build”无需做任何事。
+[0.080s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.080s] [ 44%] Built target master_board_sdk
+[0.080s] /usr/bin/make -f CMakeFiles/master_board_example_imu_data_collection.dir/build.make CMakeFiles/master_board_example_imu_data_collection.dir/depend
+[0.080s] /usr/bin/make -f CMakeFiles/master_board_example.dir/build.make CMakeFiles/master_board_example.dir/depend
+[0.080s] /usr/bin/make -f CMakeFiles/master_board_sdk_pywrap.dir/build.make CMakeFiles/master_board_sdk_pywrap.dir/depend
+[0.080s] /usr/bin/make -f CMakeFiles/master_board_example_pd.dir/build.make CMakeFiles/master_board_example_pd.dir/depend
+[0.080s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.080s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/master_board_example_imu_data_collection.dir/DependInfo.cmake --color=
+[0.080s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.080s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/master_board_example.dir/DependInfo.cmake --color=
+[0.081s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.081s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/master_board_sdk_pywrap.dir/DependInfo.cmake --color=
+[0.081s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.081s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/master_board_example_pd.dir/DependInfo.cmake --color=
+[0.082s] [ 55%] Built target test_protocol
+[0.085s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.085s] /usr/bin/make -f CMakeFiles/master_board_example_imu_data_collection.dir/build.make CMakeFiles/master_board_example_imu_data_collection.dir/build
+[0.087s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.087s] make[2]: 对“CMakeFiles/master_board_example_imu_data_collection.dir/build”无需做任何事。
+[0.088s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.088s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.088s] /usr/bin/make -f CMakeFiles/master_board_example_pd.dir/build.make CMakeFiles/master_board_example_pd.dir/build
+[0.089s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.090s] make[2]: 对“CMakeFiles/master_board_example_pd.dir/build”无需做任何事。
+[0.090s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.091s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.092s] /usr/bin/make -f CMakeFiles/master_board_example.dir/build.make CMakeFiles/master_board_example.dir/build
+[0.093s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.094s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.094s] make[2]: 对“CMakeFiles/master_board_example.dir/build”无需做任何事。
+[0.094s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.094s] /usr/bin/make -f CMakeFiles/master_board_sdk_pywrap.dir/build.make CMakeFiles/master_board_sdk_pywrap.dir/build
+[0.095s] /usr/bin/cmake -E make_directory /home/zihaoye/devel/workspace/build/master_board_sdk/example
+[0.095s] [ 66%] Built target master_board_example_imu_data_collection
+[0.095s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.095s] make[2]: 对“CMakeFiles/master_board_sdk_pywrap.dir/build”无需做任何事。
+[0.096s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.096s] [ 77%] Built target master_board_example_pd
+[0.099s] [ 88%] Built target master_board_sdk_pywrap
+[0.101s] [100%] Built target master_board_example
+[0.101s] /home/zihaoye/myenv/bin/python -c "import py_compile; py_compile.compile(\"/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/listener.py\",\"/home/zihaoye/devel/workspace/build/master_board_sdk/example/listener.pyc\")"
+[0.120s] /usr/bin/cmake -E make_directory /home/zihaoye/devel/workspace/build/master_board_sdk/example
+[0.125s] /home/zihaoye/myenv/bin/python -c "import py_compile; py_compile.compile(\"/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/com_analyser.py\",\"/home/zihaoye/devel/workspace/build/master_board_sdk/example/com_analyser.pyc\")"
+[0.144s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.150s] [100%] Built target compile_pyc__home_zihaoye_devel_workspace_src_master-board_sdk_master_board_sdk
+[0.151s] make[1]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.151s] /usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles 0
+[0.261s] Invoked command in '/home/zihaoye/devel/workspace/build/master_board_sdk' returned '0': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/zihaoye/devel/workspace/build/master_board_sdk -- -j16 -l16
+[0.263s] Invoking command in '/home/zihaoye/devel/workspace/build/master_board_sdk': PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/zihaoye/devel/workspace/build/master_board_sdk
+[0.269s] -- Install configuration: ""
+[0.284s] /usr/bin/cmake -S/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk -B/home/zihaoye/devel/workspace/build/master_board_sdk --check-build-system CMakeFiles/Makefile.cmake 0
+[0.287s] /usr/bin/make -f CMakeFiles/Makefile2 uninstall
+[0.289s] make[1]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.289s] /usr/bin/cmake -S/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk -B/home/zihaoye/devel/workspace/build/master_board_sdk --check-build-system CMakeFiles/Makefile.cmake 0
+[0.295s] /usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles 0
+[0.302s] /usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
+[0.303s] make[2]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.304s] /usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
+[0.306s] make[3]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.306s] cd /home/zihaoye/devel/workspace/build/master_board_sdk && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles/uninstall.dir/DependInfo.cmake --color=
+[0.310s] make[3]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.310s] /usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+[0.312s] make[3]: 进入目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.312s] /usr/bin/cmake -DPACKAGE_CREATES_DOT_CATKIN=TRUE -P /home/zihaoye/devel/workspace/build/master_board_sdk/cmake/cmake_uninstall.cmake
+[0.316s] -- catkin path: /home/zihaoye/devel/workspace/install/master_board_sdk/.catkin
+[0.316s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkTargets-noconfig.cmake"
+[0.322s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkTargets.cmake"
+[0.328s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkConfigVersion.cmake"
+[0.334s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkConfig.cmake"
+[0.340s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/cxx-standard.cmake"
+[0.345s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/protocol.h"
+[0.351s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/motor_driver.h"
+[0.357s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/motor.h"
+[0.363s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/master_board_interface.h"
+[0.371s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/Link_types.h"
+[0.377s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/Link_manager.h"
+[0.383s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ETHERNET_types.h"
+[0.388s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ETHERNET_manager.h"
+[0.395s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ESPNOW_types.h"
+[0.401s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ESPNOW_manager.h"
+[0.406s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/defines.h"
+[0.412s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/pkgconfig/master_board_sdk.pc"
+[0.417s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/hook/python_path.dsv"
+[0.422s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/hook/ament_prefix_path.dsv"
+[0.428s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/share/ament_index/resource_index/packages/master_board_sdk"
+[0.433s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_imu_data_collection"
+[0.439s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_pd"
+[0.444s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example"
+[0.449s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/python3.8/site-packages/libmaster_board_sdk_pywrap.cpython-38-x86_64-linux-gnu.so"
+[0.456s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/package.xml"
+[0.461s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so"
+[0.467s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/warning.hh"
+[0.473s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/deprecated.hh"
+[0.479s] -- Uninstalling "/home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/config.hh"
+[0.492s] make[3]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.498s] Built target uninstall
+[0.499s] make[2]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.499s] /usr/bin/cmake -E cmake_progress_start /home/zihaoye/devel/workspace/build/master_board_sdk/CMakeFiles 0
+[0.504s] make[1]: 离开目录“/home/zihaoye/devel/workspace/build/master_board_sdk”
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/config.hh
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/deprecated.hh
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master/board/sdk/warning.hh
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/libmaster_board_sdk.so
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/package.xml
+[0.505s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/python3.8/site-packages/libmaster_board_sdk_pywrap.cpython-38-x86_64-linux-gnu.so
+[0.506s] -- Set runtime path of "/home/zihaoye/devel/workspace/install/master_board_sdk/lib/python3.8/site-packages/libmaster_board_sdk_pywrap.cpython-38-x86_64-linux-gnu.so" to "$ORIGIN/../../../lib"
+[0.506s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example
+[0.507s] -- Set runtime path of "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example" to "/home/zihaoye/devel/workspace/install/master_board_sdk/lib"
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_pd
+[0.507s] -- Set runtime path of "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_pd" to "/home/zihaoye/devel/workspace/install/master_board_sdk/lib"
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_imu_data_collection
+[0.507s] -- Set runtime path of "/home/zihaoye/devel/workspace/install/master_board_sdk/bin/master_board_example_imu_data_collection" to ""
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/share/ament_index/resource_index/packages/master_board_sdk
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/hook/ament_prefix_path.dsv
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/hook/python_path.dsv
+[0.507s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/pkgconfig/master_board_sdk.pc
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/defines.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ESPNOW_manager.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ESPNOW_types.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ETHERNET_manager.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/ETHERNET_types.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/Link_manager.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/Link_types.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/master_board_interface.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/motor.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/motor_driver.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/include/master_board_sdk/protocol.h
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/cxx-standard.cmake
+[0.508s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkConfig.cmake
+[0.509s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkConfigVersion.cmake
+[0.509s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkTargets.cmake
+[0.509s] -- Installing: /home/zihaoye/devel/workspace/install/master_board_sdk/lib/cmake/master_board_sdk/master_board_sdkTargets-noconfig.cmake

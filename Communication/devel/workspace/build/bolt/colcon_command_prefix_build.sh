@@ -1,0 +1,11 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/zihaoye/devel/workspace/install/googletest-distribution/share/googletest-distribution/package.sh"
+. "/home/zihaoye/devel/workspace/install/master_board_sdk/share/master_board_sdk/package.sh"
+. "/home/zihaoye/devel/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.sh"
+. "/home/zihaoye/devel/workspace/install/pybind11/share/pybind11/package.sh"
+. "/home/zihaoye/devel/workspace/install/bullet_utils/share/bullet_utils/package.sh"
+. "/home/zihaoye/devel/workspace/install/odri_control_interface/share/odri_control_interface/package.sh"
+. "/home/zihaoye/devel/workspace/install/real_time_tools/share/real_time_tools/package.sh"
+. "/home/zihaoye/devel/workspace/install/yaml_utils/share/yaml_utils/package.sh"
+. "/home/zihaoye/devel/workspace/install/robot_properties_bolt/share/robot_properties_bolt/package.sh"
+. "/home/zihaoye/devel/workspace/install/slider_box/share/slider_box/package.sh"

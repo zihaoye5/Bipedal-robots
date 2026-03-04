@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The OS type is non-real-time
+-- Python version: Python 3.8.10
+
+-- Found PythonInterp: /home/zihaoye/myenv/bin/python (found suitable version "3.8.10", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /home/zihaoye/devel/workspace/install/pybind11/include (found version "2.10.0")
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- The OS type is non-real-time
+-- Found Python: /home/zihaoye/myenv/bin/python (found version "3.8.10") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zihaoye/devel/workspace/build/real_time_tools
+[35m[1mScanning dependencies of target real_time_tools[0m
+[  6%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/realtime_check.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/thread.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/spinner.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/frequency_manager.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/usb_stream.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/timer.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/iostream.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/process_manager.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libreal_time_tools.so[0m
+/usr/bin/ld: 找不到 -ledit
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/real_time_tools.dir/build.make:190：libreal_time_tools.so] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:771：CMakeFiles/real_time_tools.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

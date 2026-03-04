@@ -1,0 +1,3 @@
+source;share/yaml_utils/hook/cmake_prefix_path.ps1
+source;share/yaml_utils/hook/cmake_prefix_path.dsv
+source;share/yaml_utils/hook/cmake_prefix_path.sh

@@ -1,0 +1,38 @@
+-- JRL cmakemodules found in 'cmake/' git submodule
+-- Configuring "odri_control_interface" (https://github.com/open-dynamic-robot-initiative/odri_control_interface)
+-- Package version (ROS package.xml): 1.0.1
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Performing Test res_-pedantic
+-- Performing Test res_-pedantic - Success
+-- Performing Test res_-Wno-long-long
+-- Performing Test res_-Wno-long-long - Success
+-- Performing Test res_-Wall
+-- Performing Test res_-Wall - Success
+-- Performing Test res_-Wextra
+-- Performing Test res_-Wextra - Success
+-- Performing Test res_-Wcast-align
+-- Performing Test res_-Wcast-align - Success
+-- Performing Test res_-Wcast-qual
+-- Performing Test res_-Wcast-qual - Success
+-- Performing Test res_-Wformat
+-- Performing Test res_-Wformat - Success
+-- Performing Test res_-Wwrite-strings
+-- Performing Test res_-Wwrite-strings - Success
+-- Performing Test res_-Wconversion
+-- Performing Test res_-Wconversion - Success
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Failed to find Doxygen, documentation will not be generated.
+-- Default C++ standard: 201402
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 14
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- Configuring incomplete, errors occurred!
+See also "/home/zihaoye/devel/workspace/build/odri_control_interface/CMakeFiles/CMakeOutput.log".

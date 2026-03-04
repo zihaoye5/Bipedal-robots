@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/zihaoye/devel/workspace/build/bolt': AMENT_PREFIX_PATH=/home/zihaoye/devel/workspace/install/robot_properties_bolt CMAKE_MODULE_PATH=/home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11 CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/yaml_utils:/home/zihaoye/devel/workspace/install/real_time_tools:/home/zihaoye/devel/workspace/install/odri_control_interface:/home/zihaoye/devel/workspace/install/pybind11:/home/zihaoye/devel/workspace/install/mpi_cmake_modules:/home/zihaoye/devel/workspace/install/master_board_sdk:/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib:/home/zihaoye/devel/workspace/install/odri_control_interface/lib:/home/zihaoye/devel/workspace/install/master_board_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/zihaoye/devel/workspace/install/real_time_tools/bin:/home/zihaoye/devel/workspace/install/odri_control_interface/bin:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:/home/zihaoye/devel/workspace/install/master_board_sdk/bin:${PATH} PKG_CONFIG_PATH=/home/zihaoye/devel/workspace/install/odri_control_interface/lib/x86_64-linux-gnu/pkgconfig:/home/zihaoye/devel/workspace/install/odri_control_interface/lib/pkgconfig:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/zihaoye/devel/workspace/install/odri_control_interface/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zihaoye/devel/workspace/src/bolt -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/bolt
+[0.053s] -- The C compiler identification is GNU 9.4.0
+[0.087s] -- The CXX compiler identification is GNU 9.4.0
+[0.090s] -- Check for working C compiler: /usr/bin/cc
+[0.139s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.140s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.261s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.329s] -- The OS type is non-real-time
+[0.331s] -- Python version: Python 3.8.10
+[0.331s] 
+[0.347s] -- Found PythonInterp: /home/zihaoye/myenv/bin/python (found suitable version "3.8.10", minimum required is "3.6") 
+[0.367s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.368s] -- Performing Test HAS_FLTO
+[0.456s] -- Performing Test HAS_FLTO - Success
+[0.457s] -- Found pybind11: /home/zihaoye/devel/workspace/install/pybind11/include (found version "2.10.0")
+[0.463s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.463s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.463s]   has asked CMake to find a package configuration file provided by
+[0.463s]   "ament_cmake", but CMake did not find one.
+[0.463s] 
+[0.463s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.463s]   any of the following names:
+[0.463s] 
+[0.463s]     ament_cmakeConfig.cmake
+[0.463s]     ament_cmake-config.cmake
+[0.464s] 
+[0.464s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.464s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.464s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.464s]   has been installed.
+[0.464s] 
+[0.464s] 
+[0.464s] -- Configuring incomplete, errors occurred!
+[0.464s] See also "/home/zihaoye/devel/workspace/build/bolt/CMakeFiles/CMakeOutput.log".
+[0.466s] Invoked command in '/home/zihaoye/devel/workspace/build/bolt' returned '1': AMENT_PREFIX_PATH=/home/zihaoye/devel/workspace/install/robot_properties_bolt CMAKE_MODULE_PATH=/home/zihaoye/devel/workspace/install/pybind11/share/cmake/pybind11 CMAKE_PREFIX_PATH=/home/zihaoye/devel/workspace/install/yaml_utils:/home/zihaoye/devel/workspace/install/real_time_tools:/home/zihaoye/devel/workspace/install/odri_control_interface:/home/zihaoye/devel/workspace/install/pybind11:/home/zihaoye/devel/workspace/install/mpi_cmake_modules:/home/zihaoye/devel/workspace/install/master_board_sdk:/home/zihaoye/devel/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zihaoye/devel/workspace/install/real_time_tools/lib:/home/zihaoye/devel/workspace/install/odri_control_interface/lib:/home/zihaoye/devel/workspace/install/master_board_sdk/lib:${LD_LIBRARY_PATH} PATH=/home/zihaoye/devel/workspace/install/real_time_tools/bin:/home/zihaoye/devel/workspace/install/odri_control_interface/bin:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/bin:/home/zihaoye/devel/workspace/install/master_board_sdk/bin:${PATH} PKG_CONFIG_PATH=/home/zihaoye/devel/workspace/install/odri_control_interface/lib/x86_64-linux-gnu/pkgconfig:/home/zihaoye/devel/workspace/install/odri_control_interface/lib/pkgconfig:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PS1=(myenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/zihaoye/devel/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/odri_control_interface/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/home/zihaoye/devel/workspace/install/master_board_sdk/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/zihaoye/devel/workspace/install/odri_control_interface/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zihaoye/devel/workspace/src/bolt -DCMAKE_INSTALL_PREFIX=/home/zihaoye/devel/workspace/install/bolt

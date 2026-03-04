@@ -1,0 +1,38 @@
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ETHERNET_types.cpp:[m[K In member function ‘[01m[Kvirtual int ETHERNET_packet::toBytes(uint8_t*, int)[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ETHERNET_types.cpp:16:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_len[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   16 | int ETHERNET_packet::toBytes(uint8_t *bytes, [01;35m[Kint max_len[m[K) {
+      |                                              [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ESPNOW_types.cpp:[m[K In member function ‘[01m[Kvirtual int ESPNOW_packet::toBytes(uint8_t*, int)[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ESPNOW_types.cpp:25:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_len[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   25 | int ESPNOW_packet::toBytes(uint8_t *bytes, [01;35m[Kint max_len[m[K) {
+      |                                            [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ESPNOW_manager.cpp:[m[K In member function ‘[01m[Kvoid ESPNOW_manager::bind_filter()[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/ESPNOW_manager.cpp:99:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfilter_errno[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   99 |  int [01;35m[Kfilter_errno[m[K;
+      |      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/Link_manager.cpp:[m[K In member function ‘[01m[Kvoid LINK_manager::start()[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/Link_manager.cpp:124:4:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kioctl_errno[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  124 |    [01;35m[Kioctl_errno[m[K,  //ioctl errno
+      |    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/Link_manager.cpp:125:4:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbind_errno[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  125 |    [01;35m[Kbind_errno[m[K,   //bind errno
+      |    [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/Link_manager.cpp:1[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvoid LINK_manager::start()[m[K’ at [01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/src/Link_manager.cpp:133:9[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 16 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example.cpp:34:6:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint nice(int)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   34 |  [01;35m[Knice(-20)[m[K; //give the process a high priority
+      |  [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example_pd.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example_pd.cpp:33:6:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint nice(int)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   33 |  [01;35m[Knice(-20)[m[K; //give the process a high priority
+      |  [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example_imu_data_collection.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zihaoye/devel/workspace/src/master-board/sdk/master_board_sdk/example/example_imu_data_collection.cpp:27:6:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint nice(int)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   27 |  [01;35m[Knice(-20)[m[K; //give the process a high priority
+      |  [01;35m[K~~~~^~~~~[m[K
